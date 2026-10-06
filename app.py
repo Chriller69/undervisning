@@ -1,6 +1,6 @@
 import requests, streamlit as st
 
-api_url = "https://[your-service].onrender.com"
+api_url = "https://stock-api-b1vq.onrender.com/"
 symbol = st.text_input("Stock symbol", "TSLA")
 
 if st.button("Predict next close"):
