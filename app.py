@@ -8,4 +8,4 @@ if st.button("Predict next close"):
                      params={"symbol": symbol})
     data = r.json()
     st.metric("Predicted next close",
-         data["predicted_next_close"])
+         data["Predicted_next_close"])
